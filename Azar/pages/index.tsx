@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Quote from "../components/Quote";
 import Team from "../components/Team";
 import Us from "../components/Us";
+import Work from "../components/Work";
 
 export default function Home() {
     return (
@@ -36,6 +37,9 @@ export default function Home() {
                         <Team></Team>
                     </div>
                     <div className="separator3">WE WORK HARD AND PLAY HARD</div>
+                    <div className="work">
+                        <Work></Work>
+                    </div>
                 </div>
             </body>
             <footer>
