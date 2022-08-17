@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "MontserratMedium";
+    src: url("../fonts/Montserrat-Medium.otf");
+}
+
+html,
+body {
+    background-color: rgb(245, 245, 245);
+    background-size: 100%, 50%, 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400vh;
+    font-family: MontserratMedium;
+}
+.content {
+    background-color: white;
+    width: 70vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 20px rgba(#000, 0.001);
+}
+
+.navbar {
+    order: 0;
+}
+
+.us {
+    order: 1;
+}
+
+.quote {
+    order: 3;
+}
+
+.about {
+    order: 5;
+}
+
+.team {
+    order: 6;
+}
+
+.separator1 {
+    margin-top: 8%;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    order: 2;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.253);
+}
+
+.separator2 {
+    margin-top: 5%;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    order: 4;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.253);
+}
+
+.separator3 {
+    margin-top: 8%;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    order: 7;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.253);
+}

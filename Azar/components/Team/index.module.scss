@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.content {
+    font-size: 18px;
+    width: 100%;
+    background-size: contain;
+    text-align: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.about h1 {
+    color: black;
+    font-size: 34px;
+}
+
+.about p {
+    color: gray;
+    font-size: 18px;
+}
+
+.about h3 {
+    color: gray;
+    font-size: 18px;
+}
+
+.img {
+    border: solid 10px rgba(#000, 0.03);
+    margin-left: 5%;
+    width: 45%;
+}

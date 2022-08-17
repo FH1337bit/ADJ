@@ -1,0 +1,15 @@
+.footer {
+    position: absolute;
+    margin-top: 100%;
+    background: black;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    border-top: 10px white solid;
+}
+
+.footer label {
+    color: silver;
+    padding: 1% 1% 1% 1%;
+}
