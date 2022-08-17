@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Script from "next/script";
 import About from "../components/About";
+import Company from "../components/Company";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Quote from "../components/Quote";
@@ -39,6 +40,9 @@ export default function Home() {
                     <div className="separator3">WE WORK HARD AND PLAY HARD</div>
                     <div className="work">
                         <Work></Work>
+                    </div>
+                    <div className="company">
+                        <Company></Company>
                     </div>
                 </div>
             </body>

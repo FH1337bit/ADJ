@@ -2,7 +2,6 @@
     font-size: 18px;
     margin-top: 5%;
     width: 100%;
-    background-size: contain;
     text-align: center;
 }
 
@@ -18,4 +17,33 @@
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.typing {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing_effect {
+    width: 22ch;
+    animation: typing 2s steps(22), effect 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes effect {
+    50% {
+        border-color: transparent;
+    }
 }

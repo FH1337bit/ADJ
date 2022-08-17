@@ -2,7 +2,6 @@
     font-size: 18px;
     margin-top: 5%;
     width: 100%;
-    background-size: contain;
 }
 
 .header {
@@ -13,7 +12,6 @@
     font-size: 18px;
     margin-top: 3%;
     width: 100%;
-    background-size: contain;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -31,6 +29,15 @@
 .work p {
     color: rgba(0, 0, 0, 0.315);
     font-size: 18px;
+}
+
+.work p:first-of-type::first-letter {
+    color: black;
+    float: left;
+    font-size: 4rem;
+    line-height: 4vw;
+    padding-right: 8px;
+    /* border: 0.25em double; */
 }
 
 .section1 {
