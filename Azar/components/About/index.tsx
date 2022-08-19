@@ -9,9 +9,10 @@ const About = () => {
                 <h3>ABOUT</h3>
                 <h1>Who we are</h1>
                 <p>
-                    Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis
-                    faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras
-                    ullamcorper gravida tellus ut consequat.
+                    We are an experienced team of professionals from the online entertainment industry. After helping
+                    others fullfilling their business ambitions as employees, we now want to fullfill our own goals. We
+                    love to provide experience, guidance, support and compensation to anyone who wants to join us on
+                    this journey.
                 </p>
             </div>
             <div className={styles.img}>

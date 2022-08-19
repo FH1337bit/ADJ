@@ -28,7 +28,7 @@
 
 .work p {
     color: rgba(0, 0, 0, 0.315);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .work p:first-of-type::first-letter {
@@ -44,16 +44,19 @@
     margin-left: 5%;
     width: 30%;
     order: 1;
+    border-top: solid;
 }
 
 .section2 {
     margin-left: 5%;
     width: 30%;
     order: 2;
+    border-top: solid;
 }
 
 .section3 {
     margin-left: 5%;
     width: 30%;
     order: 3;
+    border-top: solid;
 }

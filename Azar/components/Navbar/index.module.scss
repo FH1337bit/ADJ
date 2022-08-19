@@ -27,15 +27,19 @@
     flex-grow: 0;
     list-style-type: none;
     align-self: flex-end;
-    padding-left: 5%;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    padding-right: 5%;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 .menu li:hover {
     color: black;
     text-decoration: underline;
+    border-right: 3px solid rgba(0, 0, 0, 0.336);
+    border-left: 3px solid rgba(0, 0, 0, 0.336);
 }
 
 .menu button {

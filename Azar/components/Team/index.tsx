@@ -12,9 +12,12 @@ const Team = () => {
                 <h3>TEAM</h3>
                 <h1>Who we do</h1>
                 <p>
-                    Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis
-                    faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras
-                    ullamcorper gravida tellus ut consequat.
+                    Our goal is to provide a great service to the companies operating in the online entertainment
+                    industy. We believe strongly in our clients products and we deeply and seemlesly entertwine our
+                    product and service with theirs. Our daily bread is developing custom software solutions, creation
+                    of online marketing campaigns, promote and support the customers brand. Forge out of our customers
+                    complicated problems new challenges for us. Create new services and solutions that the industry has
+                    not seen yet.
                 </p>
             </div>
         </div>
