@@ -2,29 +2,33 @@
     flex-wrap: nowrap;
     display: flex;
     justify-content: left;
+    flex-direction: row;
 }
 
 .logo {
-    align-self: flex-end;
+    width: 10vw;
+    justify-content: center;
 }
 
 .menu ul {
     display: flex;
     justify-content: center;
     width: 100%;
+
+    padding-bottom: 1vh;
+    margin-left: 3%;
 }
 
 .menu li {
+    border-bottom: 0.1vh solid black;
     font-family: "Inter";
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 0.8vw;
     color: #00000094;
     order: 1;
     flex-grow: 0;
     list-style-type: none;
     align-self: flex-end;
-    border-right: 3px solid black;
-    border-left: 3px solid black;
     margin-right: 3%;
     margin-left: 3%;
     padding-right: 3%;
@@ -34,20 +38,11 @@
 .menu li:hover {
     color: black;
     text-decoration: underline;
-    border-right: 3px solid rgba(0, 0, 0, 0.336);
-    border-left: 3px solid rgba(0, 0, 0, 0.336);
-}
-
-.menu li:hover {
-    color: black;
-    text-decoration: underline;
-    border-right: 3px solid rgba(0, 0, 0, 0.336);
-    border-left: 3px solid rgba(0, 0, 0, 0.336);
 }
 
 .menu button {
     width: 20%;
-    height: 50px;
+    height: 5vw;
     color: white;
     background-color: black;
     order: 2;

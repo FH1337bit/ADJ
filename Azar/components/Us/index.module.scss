@@ -1,5 +1,4 @@
 .us {
-    font-size: 18px;
     width: 100%;
     height: 100%;
     background-image: url("../../images/sep09.jpg");
@@ -13,20 +12,23 @@
 .us button {
     color: rgb(0, 0, 0);
     background-color: white;
-    font-size: 18px;
+    font-size: 1vw;
     width: 30%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1%;
 }
 
 .us h1 {
+    font-size: 1.5vw;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .us h3 {
+    font-size: 1vw;
     color: silver;
     margin-left: auto;
     margin-right: auto;

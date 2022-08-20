@@ -1,5 +1,5 @@
 .work {
-    font-size: 18px;
+    font-size: 1vw;
     margin-top: 7%;
     margin-bottom: 7%;
     width: 100%;
@@ -10,7 +10,6 @@
 }
 
 .content {
-    font-size: 18px;
     margin-top: 3%;
     width: 100%;
     display: flex;
@@ -19,26 +18,20 @@
 }
 .work h1 {
     color: black;
-    font-size: 32px;
-}
-
-.work h2 {
-    color: black;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 .work p {
     color: rgba(0, 0, 0, 0.315);
-    font-size: 24px;
+    font-size: 1vw;
 }
 
 .work p:first-of-type::first-letter {
     color: black;
     float: left;
-    font-size: 4rem;
-    line-height: 4vw;
+    font-size: 2vw;
+    line-height: 2vw;
     padding-right: 8px;
-    /* border: 0.25em double; */
 }
 
 .section1 {
@@ -66,12 +59,11 @@
     flex-wrap: nowrap;
     display: flex;
     justify-content: left;
-    // position: absolute;
 }
 .title {
-    height: 40px;
+    height: 3vh;
     border-right: 3px solid white;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: black;
     width: 0;
     overflow: hidden;
@@ -107,12 +99,3 @@
         width: 0;
     }
 }
-
-// @keyframes blinking-cursor {
-//     from {
-//         border-color: transparent;
-//     }
-//     to {
-//         border-color: black;
-//     }
-// }
