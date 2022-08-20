@@ -42,11 +42,12 @@
 
 .menu button {
     width: 20%;
-    height: 5vw;
+    height: 3vw;
+    font-size: 0.7vw;
     color: white;
     background-color: black;
     order: 2;
-    align-self: flex-end;
+    align-self: center;
     justify-content: center;
     border-radius: 5px;
 }
