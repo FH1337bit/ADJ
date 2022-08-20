@@ -4,20 +4,6 @@
     text-align: center;
 }
 
-.quote h1 {
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5vw;
-}
-
-.quote h3 {
-    color: gray;
-    font-size: 1vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .typing {
     height: 80vh;
     display: flex;
@@ -44,5 +30,37 @@
 @keyframes effect {
     50% {
         border-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .quote h1 {
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+    }
+
+    .quote h3 {
+        color: gray;
+        font-size: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .quote h1 {
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5vw;
+    }
+
+    .quote h3 {
+        color: gray;
+        font-size: 1vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

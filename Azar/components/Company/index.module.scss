@@ -1,5 +1,4 @@
 .company {
-    font-size: 0.7vw;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -11,17 +10,36 @@
     margin-bottom: 5%;
 }
 
-.company h1 {
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5vw;
-    width: 75%;
+@media only screen and (max-width: 40em) {
+    .company h1 {
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+        width: 75%;
+    }
+
+    .company h3 {
+        color: rgba(0, 0, 0, 0.425);
+        font-size: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.company h3 {
-    color: rgba(0, 0, 0, 0.425);
-    font-size: 1vw;
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (min-width: 40em) {
+    .company h1 {
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5vw;
+        width: 75%;
+    }
+
+    .company h3 {
+        color: rgba(0, 0, 0, 0.425);
+        font-size: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

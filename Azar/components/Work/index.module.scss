@@ -1,5 +1,4 @@
 .work {
-    font-size: 1vw;
     margin-top: 7%;
     margin-bottom: 7%;
     width: 100%;
@@ -16,22 +15,84 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.work h1 {
-    color: black;
-    font-size: 1.5vw;
+
+@media only screen and (max-width: 40em) {
+    .work p {
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 2vw;
+    }
+    .work h1 {
+        color: black;
+        font-size: 3vw;
+    }
+    .work h3 {
+        color: black;
+        font-size: 2vw;
+    }
+
+    .work p:first-of-type::first-letter {
+        color: black;
+        float: left;
+        font-size: 4vw;
+        line-height: 4vw;
+        padding-right: 8px;
+    }
+
+    .img {
+        border-radius: 10%;
+        margin-left: 5%;
+        width: 45%;
+    }
+    .title {
+        height: 3vh;
+        border-right: 3px solid white;
+        font-size: 3vw;
+        color: black;
+        width: 0;
+        overflow: hidden;
+        white-space: no-wrap;
+        display: block;
+        animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
+        animation-fill-mode: forwards;
+    }
 }
 
-.work p {
-    color: rgba(0, 0, 0, 0.315);
-    font-size: 1vw;
-}
+@media only screen and (min-width: 40em) {
+    .work p {
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 1vw;
+    }
+    .work h1 {
+        color: black;
+        font-size: 1.5vw;
+    }
 
-.work p:first-of-type::first-letter {
-    color: black;
-    float: left;
-    font-size: 2vw;
-    line-height: 2vw;
-    padding-right: 8px;
+    .work p:first-of-type::first-letter {
+        color: black;
+        float: left;
+        font-size: 2vw;
+        line-height: 2vw;
+        padding-right: 8px;
+    }
+
+    .img {
+        box-shadow: 0px 0px 30px 30px rgba(190, 190, 190, 0.3);
+        border-radius: 10%;
+        margin-left: 5%;
+        width: 45%;
+    }
+    .title {
+        height: 3vh;
+        border-right: 3px solid white;
+        font-size: 1.5vw;
+        color: black;
+        width: 0;
+        overflow: hidden;
+        white-space: no-wrap;
+        display: block;
+        animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
+        animation-fill-mode: forwards;
+    }
 }
 
 .section1 {
@@ -59,18 +120,6 @@
     flex-wrap: nowrap;
     display: flex;
     justify-content: left;
-}
-.title {
-    height: 3vh;
-    border-right: 3px solid white;
-    font-size: 1.5vw;
-    color: black;
-    width: 0;
-    overflow: hidden;
-    white-space: no-wrap;
-    display: block;
-    animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
-    animation-fill-mode: forwards;
 }
 
 @keyframes typewriter {
