@@ -6,9 +6,24 @@
 @media only screen and (max-width: 40em) {
     body {
         background-color: white;
-        width: 100%;
+        width: 90%;
         height: 100%;
         font-family: MontserratMedium;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .separator3 {
+        font-size: 2vw;
+        margin-top: 8%;
+        height: 1px;
+        width: 100%;
+        background-color: rgb(190, 190, 190);
+        order: 8;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.253);
+    }
+    .content {
+        margin-bottom: 15%;
     }
 }
 
@@ -20,23 +35,16 @@
         height: 100%;
         font-family: MontserratMedium;
     }
-}
-
-footer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-}
-
-@media only screen and (max-width: 40em) {
-    .content {
-        margin-bottom: 15%;
-        margin-left: 0%;
+    .separator3 {
+        font-size: 1vw;
+        margin-top: 8%;
+        height: 1px;
+        width: 100%;
+        background-color: rgb(190, 190, 190);
+        order: 8;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.253);
     }
-}
-
-@media only screen and (min-width: 40em) {
     .content {
         background-color: white;
         width: 70vw;
@@ -49,9 +57,16 @@ footer {
     }
 }
 
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
 .navbar {
     order: 0;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .us {
@@ -95,17 +110,6 @@ footer {
 
 .team {
     order: 7;
-}
-
-.separator3 {
-    font-size: 1vw;
-    margin-top: 8%;
-    height: 1px;
-    width: 100%;
-    background-color: rgb(190, 190, 190);
-    order: 8;
-    text-align: right;
-    color: rgba(0, 0, 0, 0.253);
 }
 
 .work {

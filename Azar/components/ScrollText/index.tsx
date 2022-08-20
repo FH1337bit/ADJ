@@ -14,7 +14,7 @@ const ScrollText = () => {
                 </ul>
             </div>
             <div className={styles.text_box}>
-                <label>WITH AZAR ELITE</label>
+                <label>WITH AZAR ELITE TEAM</label>
             </div>
         </div>
     );

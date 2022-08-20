@@ -5,9 +5,6 @@ import mypic from "../../images/img2.jpg";
 const Team = () => {
     return (
         <div className={styles.about}>
-            <div className={styles.img}>
-                <Image style={{ borderRadius: "10%" }} src={mypic} alt="About" />
-            </div>
             <div className={styles.content}>
                 <h3>TEAM</h3>
                 <h1>Who we do</h1>
@@ -19,6 +16,9 @@ const Team = () => {
                     complicated problems new challenges for us. Create new services and solutions that the industry has
                     not seen yet.
                 </p>
+            </div>
+            <div className={styles.img}>
+                <Image style={{ borderRadius: "10%" }} src={mypic} alt="About" />
             </div>
         </div>
     );

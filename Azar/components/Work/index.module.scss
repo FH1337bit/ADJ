@@ -55,6 +55,12 @@
         animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
         animation-fill-mode: forwards;
     }
+    .title_holder {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: left;
+        width: 15vw;
+    }
 }
 
 @media only screen and (min-width: 40em) {
@@ -93,6 +99,12 @@
         animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
         animation-fill-mode: forwards;
     }
+    .title_holder {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: left;
+        width: 10vw;
+    }
 }
 
 .section1 {
@@ -114,12 +126,6 @@
     width: 30%;
     order: 3;
     border-top: solid;
-}
-
-.title_holder {
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: left;
 }
 
 @keyframes typewriter {

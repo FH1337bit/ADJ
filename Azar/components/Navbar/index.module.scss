@@ -10,7 +10,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        padding-bottom: 1vh;
     }
     .menu li {
         border-bottom: 0.1vh solid black;
@@ -31,15 +30,16 @@
         justify-content: center;
     }
     .menu button {
-        width: 20%;
+        width: 30%;
         height: 8vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: white;
         background-color: black;
         order: 2;
         align-self: center;
         justify-content: center;
         border-radius: 5px;
+        margin-left: 5%;
     }
 }
 
@@ -48,8 +48,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-
-        padding-bottom: 1vh;
         margin-left: 3%;
     }
     .menu li {
@@ -85,5 +83,5 @@
 
 .menu li:hover {
     color: black;
-    text-decoration: underline;
+    border-bottom: solid 0.35vh rgb(125, 0, 0);
 }
