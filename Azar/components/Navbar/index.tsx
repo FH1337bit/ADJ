@@ -14,8 +14,8 @@ const Navbar = () => {
                     <li>TEAM</li>
                     <li>WORK</li>
                     <li>CONTACT</li>
-                    <button>CONTACT US</button>
                 </ul>
+                <button>CONTACT US</button>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 .work {
     font-size: 18px;
-    margin-top: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     width: 100%;
 }
 
@@ -60,3 +61,58 @@
     order: 3;
     border-top: solid;
 }
+
+.title_holder {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: left;
+    // position: absolute;
+}
+.title {
+    height: 40px;
+    border-right: 3px solid white;
+    font-size: 30px;
+    color: black;
+    width: 0;
+    overflow: hidden;
+    white-space: no-wrap;
+    display: block;
+    animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 70%;
+    }
+    48% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    55% {
+        width: 100%;
+    }
+    75% {
+        width: 70%;
+    }
+    85% {
+        width: 30%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+// @keyframes blinking-cursor {
+//     from {
+//         border-color: transparent;
+//     }
+//     to {
+//         border-color: black;
+//     }
+// }

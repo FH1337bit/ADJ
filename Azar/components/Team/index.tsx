@@ -6,7 +6,7 @@ const Team = () => {
     return (
         <div className={styles.about}>
             <div className={styles.img}>
-                <Image src={mypic} alt="About" />
+                <Image style={{ borderRadius: "10%" }} src={mypic} alt="About" />
             </div>
             <div className={styles.content}>
                 <h3>TEAM</h3>

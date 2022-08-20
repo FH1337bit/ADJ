@@ -5,6 +5,7 @@ import Company from "../components/Company";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Quote from "../components/Quote";
+import ScrollText from "../components/ScrollText";
 import Team from "../components/Team";
 import Us from "../components/Us";
 import Work from "../components/Work";
@@ -25,6 +26,9 @@ export default function Home() {
                     </div>
                     <div className="us">
                         <Us></Us>
+                    </div>
+                    <div className="scroll_text">
+                        <ScrollText></ScrollText>
                     </div>
                     <div className="separator1"></div>
                     <div className="quote">

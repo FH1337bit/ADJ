@@ -10,14 +10,10 @@
 
 .menu ul {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     width: 100%;
 }
 
-//   margin-top: 100px;
-//   margin-bottom: 100px;
-//   margin-right: 150px;
-//   margin-left: 80px;
 .menu li {
     font-family: "Inter";
     font-weight: bolder;
@@ -42,12 +38,20 @@
     border-left: 3px solid rgba(0, 0, 0, 0.336);
 }
 
+.menu li:hover {
+    color: black;
+    text-decoration: underline;
+    border-right: 3px solid rgba(0, 0, 0, 0.336);
+    border-left: 3px solid rgba(0, 0, 0, 0.336);
+}
+
 .menu button {
-    width: 10%;
-    height: 50%;
-    margin-left: 20%;
+    width: 20%;
+    height: 50px;
     color: white;
     background-color: black;
     order: 2;
     align-self: flex-end;
+    justify-content: center;
+    border-radius: 5px;
 }

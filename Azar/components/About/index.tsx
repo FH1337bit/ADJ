@@ -16,7 +16,7 @@ const About = () => {
                 </p>
             </div>
             <div className={styles.img}>
-                <Image src={mypic} alt="About" />
+                <Image style={{ borderRadius: "10%" }} src={mypic} alt="About" />
             </div>
         </div>
     );
