@@ -1,0 +1,176 @@
+.work {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: none; /* Remove bullets */
+    color: rgba(0, 0, 0, 0.315);
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 40em) {
+    .content {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .work p {
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 2.5vw;
+        line-height: 150%;
+    }
+    .work h1 {
+        color: black;
+        font-size: 3vw;
+    }
+    .work h3 {
+        color: black;
+        font-size: 2vw;
+    }
+
+    .work p:first-of-type::first-letter {
+        color: black;
+        float: left;
+        font-size: 4vw;
+        line-height: 4vw;
+        padding-right: 8px;
+    }
+
+    .title {
+        height: 3vh;
+        border-right: 3px solid white;
+        font-size: 3vw;
+        color: black;
+        width: 0;
+        overflow: hidden;
+        white-space: no-wrap;
+        display: block;
+        animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
+        animation-fill-mode: forwards;
+    }
+    .title_holder {
+        border-top: solid;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: left;
+        width: 15vw;
+    }
+    .section1 {
+        margin-left: 5%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .section2 {
+        margin-left: 5%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .section3 {
+        margin-left: 5%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .content {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .work p {
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 1vw;
+        line-height: 150%;
+    }
+    .work h1 {
+        color: black;
+        font-size: 1.5vw;
+    }
+
+    .work p:first-of-type::first-letter {
+        color: black;
+        float: left;
+        font-size: 2vw;
+        line-height: 2vw;
+        padding-right: 8px;
+    }
+
+    .title {
+        height: 3vh;
+        border-right: 3px solid white;
+        font-size: 1.5vw;
+        color: black;
+        width: 0;
+        overflow: hidden;
+        white-space: no-wrap;
+        display: block;
+        animation: typewriter 15s steps(35) infinite, blinking-cursor 0.8s infinite;
+        animation-fill-mode: forwards;
+    }
+    .title_holder {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: left;
+        width: 10vw;
+    }
+    .section1 {
+        margin-left: 5%;
+        width: 30%;
+        order: 1;
+        border-top: solid;
+    }
+
+    .section2 {
+        margin-left: 5%;
+        width: 30%;
+        order: 2;
+        border-top: solid;
+    }
+
+    .section3 {
+        margin-left: 5%;
+        width: 30%;
+        order: 3;
+        border-top: solid;
+    }
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 70%;
+    }
+    48% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    55% {
+        width: 100%;
+    }
+    75% {
+        width: 70%;
+    }
+    85% {
+        width: 30%;
+    }
+    100% {
+        width: 0;
+    }
+}
