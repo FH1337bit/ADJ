@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="about">
                     <Team></Team>
                 </div>
-                <div className="separator3">WE WORK HARD AND PLAY HARD</div>
+                <div className="separator3"></div>
                 <div className="work">
                     <Work></Work>
                 </div>

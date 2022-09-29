@@ -2,7 +2,7 @@ import styles from "../Work/index.module.scss";
 
 const Work = () => {
     return (
-        <div className={styles.work}>
+        <div id="work" className={styles.work}>
             <div className={styles.header}>
                 <h3>OUR PILLARS</h3>
                 <h1>The Azar Elite core</h1>
@@ -25,11 +25,13 @@ const Work = () => {
                 </div>
                 <div className={styles.section3}>
                     <div className={styles.title_holder}>
-                        <span className={styles.title}>TARGET</span>
+                        <span className={styles.title}>VALUES</span>
                     </div>
                     <p>
-                        T No mediocre work and do not compromise, negotiate effetively instead. Stay openminded. Strive
-                        toward the ideals of good. Tell the truth or at least do not lie.
+                        V No mediocre work. <br /> Do not compromise, negotiate effetively instead.
+                        <br /> Stay openminded.
+                        <br /> Strive toward the ideals of good.
+                        <br /> Tell the truth or at least do not lie.
                     </p>
                 </div>
             </div>

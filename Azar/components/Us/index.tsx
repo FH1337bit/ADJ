@@ -2,10 +2,12 @@ import styles from "../Us/index.module.scss";
 
 const Us = () => {
     return (
-        <div className={styles.us}>
+        <div id="us" className={styles.us}>
             <h1>EXPAND YOUR CAREER WITH US</h1>
             <h3>JOIN OUR AZAR ELITE TEAM</h3>
-            <button>OPEN POSITIONS</button>
+            <button>
+                <a href="https://linkedin.com">OPEN POSITIONS</a>
+            </button>
         </div>
     );
 };

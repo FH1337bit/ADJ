@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 40em) {
@@ -10,6 +12,7 @@
         border-left: solid;
         padding-left: 2%;
         color: gray;
+        line-height: 150%;
     }
     .about h1 {
         color: black;
@@ -20,10 +23,9 @@
         color: gray;
         font-size: 2.5vw;
     }
-    .img {
-        border-radius: 10%;
-        width: 80%;
+    .about img {
         margin-top: 5%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -43,6 +45,8 @@
         border-left: solid;
         padding-left: 2%;
         color: gray;
+        display: inline-block;
+        line-height: 150%;
     }
     .about h1 {
         color: black;
@@ -53,9 +57,7 @@
         color: gray;
         font-size: 1vw;
     }
-    .img {
-        box-shadow: 0px 0px 30px 30px rgba(190, 190, 190, 0.3);
-        border-radius: 10%;
+    .about img {
         margin-left: 5%;
         width: 45%;
     }

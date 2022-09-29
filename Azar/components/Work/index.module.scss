@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.content ul {
+    list-style-type: none; /* Remove bullets */
+    color: rgba(0, 0, 0, 0.315);
+    font-size: 1vw;
+}
+
 @media only screen and (max-width: 40em) {
     .content {
         margin-top: 3%;
@@ -19,6 +25,7 @@
     .work p {
         color: rgba(0, 0, 0, 0.315);
         font-size: 2.5vw;
+        line-height: 150%;
     }
     .work h1 {
         color: black;
@@ -86,6 +93,7 @@
     .work p {
         color: rgba(0, 0, 0, 0.315);
         font-size: 1vw;
+        line-height: 150%;
     }
     .work h1 {
         color: black;

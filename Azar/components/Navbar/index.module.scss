@@ -4,6 +4,19 @@
     justify-content: left;
     flex-direction: row;
 }
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover {
+    color: black;
+    border-bottom: solid 0.35vh rgb(125, 0, 0);
+}
+
+.menu button a {
+    color: white;
+}
 
 @media only screen and (max-width: 40em) {
     .menu ul {
@@ -21,16 +34,16 @@
         list-style-type: none;
         align-self: flex-end;
         margin-right: 5%;
-        margin-left: 1%;
+        margin-left: 2%;
         padding-right: 3%;
-        padding-left: 3%;
+        padding-left: 5%;
     }
-    .logo {
-        width: 30vw;
+    .menu img {
+        width: 20vw;
         justify-content: center;
     }
     .menu button {
-        width: 30%;
+        width: 40%;
         height: 8vw;
         font-size: 1.5vw;
         color: white;
@@ -39,7 +52,7 @@
         align-self: center;
         justify-content: center;
         border-radius: 5px;
-        margin-left: 5%;
+        margin-left: 15%;
     }
 }
 
@@ -64,7 +77,7 @@
         padding-right: 3%;
         padding-left: 3%;
     }
-    .logo {
+    .menu img {
         width: 10vw;
         justify-content: center;
     }
@@ -79,9 +92,4 @@
         justify-content: center;
         border-radius: 5px;
     }
-}
-
-.menu li:hover {
-    color: black;
-    border-bottom: solid 0.35vh rgb(125, 0, 0);
 }
