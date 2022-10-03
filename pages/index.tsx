@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import Fundamentals from "../components/Fundamentals";
 import Header from "../components/Header";
 import OurTeam from "../components/OurTeam";
 
@@ -17,6 +18,9 @@ export default function Home() {
                 </div>
                 <div className="ourteam">
                     <OurTeam></OurTeam>
+                </div>
+                <div className="fundamentals">
+                    <Fundamentals></Fundamentals>
                 </div>
             </div>
         </Fragment>

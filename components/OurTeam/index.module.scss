@@ -4,6 +4,7 @@
     justify-content: left;
     flex-direction: row;
     background-color: #231f20;
+    margin-bottom: 5vh;
 }
 
 .profile {
@@ -90,6 +91,13 @@
         margin-top: 1vh;
         color: #9c9c9c;
         font-size: 20px;
+        line-height: 3vh;
+    }
+
+    .profile h4 {
+        margin-top: 1vh;
+        color: #9c9c9c;
+        font-size: 18px;
         line-height: 3vh;
     }
 

@@ -16,8 +16,8 @@ const OurTeam = () => {
                     <Image src={ceo} alt="CEO" />
                     <div className={styles.profile_text}>
                         <h2 style={{ color: "#dec2ba" }}>Jan Urbanec</h2>
-                        <h2>https://www.linkedin.com/in/jan-urbanec-629a05a5/</h2>
-                        <h2 style={{ color: "#dec2ba" }}>General Partner</h2>
+                        <h4 style={{ color: "white" }}>General Partner</h4>
+                        <h4>https://www.linkedin.com/in/jan-urbanec-629a05a5/</h4>
                     </div>
                 </div>
                 <h3>CEO, Sales Director and product manager with over 10 years of experience in gaming world.</h3>
