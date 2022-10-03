@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Header/index.module.scss";
-import logo from "../../public/ADJ_Logo.png";
-import hamburger from "../../public/hamburger.png";
+import logo from "../../images/ADJ_Logo.png";
+import hamburger from "../../images/hamburger.png";
 const Header = () => {
     return (
         <div className={styles.menu}>
