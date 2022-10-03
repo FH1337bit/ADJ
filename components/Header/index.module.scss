@@ -1,0 +1,148 @@
+.menu {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #231f20;
+}
+
+.navbar {
+    display: flex;
+}
+
+.hamburger_box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.separator {
+    font-size: 1vw;
+    margin-top: 4vh;
+    height: 1px;
+    width: 90%;
+    background-color: #dec2ba;
+    color: #dec2ba;
+}
+
+.joinus {
+    margin-left: auto;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu h1 {
+    color: #dec2ba;
+    font-size: 64px;
+}
+
+.menu h2 {
+    margin-top: 3vh;
+    color: #9c9c9c;
+    font-size: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu label {
+    color: #dec2ba;
+}
+
+.menu li:hover {
+    color: black;
+    border-bottom: solid 0.35vh rgb(125, 0, 0);
+}
+
+.menu button a {
+    color: white;
+}
+
+@media only screen and (max-width: 40em) {
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .menu li {
+        border-bottom: 0.1vh solid black;
+        font-weight: bolder;
+        font-size: 1.8vw;
+        color: #00000094;
+        order: 1;
+        flex-grow: 0;
+        list-style-type: none;
+        align-self: flex-end;
+        margin-right: 5%;
+        margin-left: 2%;
+        padding-right: 3%;
+        padding-left: 5%;
+    }
+    .menu img {
+        width: 20vw;
+        justify-content: center;
+    }
+    .menu button {
+        width: 40%;
+        height: 8vw;
+        font-size: 1.5vw;
+        color: white;
+        background-color: black;
+        order: 2;
+        align-self: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 3%;
+    }
+    .menu li {
+        border-bottom: 0.1vh solid black;
+        font-weight: bolder;
+        font-size: 0.7vw;
+        color: #00000094;
+        order: 1;
+        flex-grow: 0;
+        list-style-type: none;
+        align-self: flex-end;
+        margin-right: 3%;
+        margin-left: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .menu img {
+        width: 10vw;
+        justify-content: center;
+    }
+    .menu button {
+        width: 10vw;
+        height: 3vw;
+        font-size: 1vw;
+        font-weight: 900;
+        color: black;
+        background-color: #dec2ba;
+        align-self: center;
+        justify-content: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+    }
+}

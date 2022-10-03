@@ -9,7 +9,7 @@ html {
 
 @media only screen and (max-width: 40em) {
     body {
-        background-color: white;
+        background-color: "red";
         width: 90%;
         height: 100%;
         font-family: MontserratMedium;
@@ -34,7 +34,7 @@ html {
 @media only screen and (min-width: 40em) {
     body {
         margin-top: 1%;
-        background-color: rgb(245, 245, 245);
+        background-color: "red";
         width: 100%;
         height: 100%;
         font-family: MontserratMedium;
@@ -50,7 +50,7 @@ html {
         color: rgba(0, 0, 0, 0.253);
     }
     .content {
-        background-color: white;
+        background-color: "red";
         width: 70vw;
         height: 100%;
         margin-left: auto;
@@ -68,7 +68,7 @@ footer {
     height: 100%;
 }
 
-.navbar {
+.header {
     order: 0;
     margin-bottom: 3%;
 }
@@ -127,11 +127,3 @@ footer {
     width: 90%;
     order: 10;
 }
-
-// @media only screen and (max-width: 40em) {
-
-// }
-
-// @media only screen and (min-width: 40em) {
-
-// }
