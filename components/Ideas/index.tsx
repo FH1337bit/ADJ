@@ -36,10 +36,7 @@ const Ideas = () => {
                     </h4>
                 </div>
             </div>
-            <h2>
-                Our team includes worldwide specialist on gaming. We looking for strong persons across all kinds of
-                bussiness.
-            </h2>
+            <h2>ADJ CONSULTING EXPERTS IN IGAMING</h2>
         </div>
     );
 };

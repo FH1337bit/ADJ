@@ -25,7 +25,10 @@ const Fundamentals = () => {
                     <Image src={fundamentals} alt="Fundamentals" />
                 </div>
             </div>
-            <h2>Knowledge is not for self but for all . . .</h2>
+            <div className={styles.quote}>
+                <h2>Knowledge is not for self but for all</h2>
+                <h3>Plato 360 BC</h3>
+            </div>
         </div>
     );
 };

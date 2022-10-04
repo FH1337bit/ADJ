@@ -36,6 +36,16 @@
     margin-bottom: 6vh;
 }
 
+.quote {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    margin: 5vw 4vw 4vw 5vw;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 40em) {
     .fundamentals h1 {
         color: #dec2ba;
@@ -84,8 +94,23 @@
     .fundamentals h2 {
         color: white;
         font-size: 28px;
-        font-weight: 700;
-        height: 2vh;
-        margin: 5vw 4vw 4vw 5vw;
+        font-weight: 100;
+    }
+
+    .quote h3 {
+        color: #dec2ba;
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 2vw;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .fundamentals h2:before {
+        content: "\201c";
+    }
+    .fundamentals h2:after {
+        content: "\201d";
     }
 }
