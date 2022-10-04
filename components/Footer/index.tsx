@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Footer/index.module.scss";
-import adjlogo from "../../images/ADJ_Logo.png";
+import adjlogo from "../../images/logo.png";
 import fb from "../../images/fb.png";
 import insta from "../../images/insta.png";
 import linkedin from "../../images/linkedin.png";
