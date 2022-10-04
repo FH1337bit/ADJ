@@ -9,7 +9,7 @@ const Header = () => {
         <div className={styles.menu}>
             <div className={styles.navbar}>
                 <div className={styles.hamburger_box}>
-                    <Image src={hamburger.src} style={{ width: "4vw", height: "5vh" }} alt="Hamburger" />
+                    <Image src={hamburger} alt="Hamburger" />
                     <label>MENU</label>
                 </div>
                 <div className={styles.joinus}>
@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
             </div>
             <div className={styles.logo}>
-                <Image src={logo.src} style={{ width: "14vw", height: "23vh" }} alt="ADJ" />
+                <Image src={logo} alt="ADJ" />
                 <h1>Your partner in iGaming</h1>
                 <div className={styles.separator}></div>
                 <h2>Join our journey together in gaming world. </h2>
