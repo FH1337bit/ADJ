@@ -13,8 +13,10 @@ const OurTeam = () => {
                     member is a focused specialist for different challenges our clients present us.
                 </h3>
                 <div className={styles.profile_image}>
-                    <div className={styles.image}>
-                        <Image src={ceo} alt="CEO" />
+                    <div className={styles.image_box}>
+                        <div className={styles.image}>
+                            <Image src={ceo} alt="CEO" />
+                        </div>
                         <div className={styles.profile_text}>
                             <h2 style={{ color: "#dec2ba" }}>Jan Urbanec</h2>
                             <h4 style={{ color: "white" }}>General Partner</h4>

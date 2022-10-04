@@ -2,6 +2,7 @@
 import styles from "../Header/index.module.scss";
 import logo from "../../images/logo.png";
 import hamburger from "../../images/hamburger.png";
+import arrow from "../../images/arrow.png";
 import Image from "next/image";
 
 const Header = () => {
@@ -22,6 +23,9 @@ const Header = () => {
                 <div className={styles.separator}></div>
                 <h2>Join our journey together in gaming world. </h2>
                 <button>Talk to us</button>
+                <div className={styles.arrow}>
+                    <Image src={arrow} alt="ADJ" />
+                </div>
             </div>
         </div>
     );

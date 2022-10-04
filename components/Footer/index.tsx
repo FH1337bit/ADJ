@@ -10,7 +10,6 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            <h1>Contact</h1>
             <div className={styles.content}>
                 <div className={styles.content_box}>
                     <Image src={adjlogo} alt="adjlogo" />

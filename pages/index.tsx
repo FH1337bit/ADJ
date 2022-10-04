@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Footer from "../components/Footer";
 import Fundamentals from "../components/Fundamentals";
 import Header from "../components/Header";
+import Ideas from "../components/Ideas";
 import OurTeam from "../components/OurTeam";
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
             <div className="content">
                 <div className="header">
                     <Header></Header>
+                </div>
+                <div className="ourteam">
+                    <Ideas></Ideas>
                 </div>
                 <div className="ourteam">
                     <OurTeam></OurTeam>

@@ -1,10 +1,17 @@
-.fundamentals {
+.ideas {
     flex-wrap: nowrap;
     display: flex;
+    justify-content: left;
     flex-direction: column;
     background-color: #231f20;
     padding-top: 4vh;
-    margin-bottom: 4vh;
+    padding-bottom: 1vh;
+    margin-bottom: 10vh;
+    border-top: 4px solid #dec2ba;
+}
+
+.ideas_header {
+    margin-left: 5vw;
 }
 
 .content {
@@ -13,36 +20,29 @@
     justify-content: center;
     flex-direction: row;
     background-color: #231f20;
-    border-left: 6px solid white;
-    border-right: 6px solid white;
-    margin-left: 5vw;
-    margin-right: 5vw;
     align-content: center;
+    margin-left: 4vw;
+    margin-right: 2vw;
 }
 
 .content_box {
     align-self: center;
     align-content: center;
     align-items: center;
-    margin-right: 10vw;
-    margin-left: 2vw;
-}
-
-.text_rotate {
-    border: 1px solid red;
-    height: 1vh;
-    transform: rotate(270deg);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-right: 2vw;
 }
 
 @media only screen and (max-width: 40em) {
-    .fundamentals h1 {
+    .ideas h1 {
         color: #dec2ba;
         font-size: 24px;
         font-weight: 700;
     }
     .content h2 {
         color: #dec2ba;
-        font-size: 44px;
+        font-size: 24px;
         font-weight: 700;
     }
     .fundamentals h3 {
@@ -60,37 +60,39 @@
 }
 
 @media only screen and (min-width: 40em) {
-    .fundamentals h1 {
-        color: white;
+    .ideas h1 {
+        color: #dec2ba;
         font-size: 42px;
         font-weight: 700;
-        margin-left: 5vw;
-        margin-bottom: 6vh;
+        margin-bottom: 3vh;
     }
     .content h2 {
         color: #dec2ba;
         font-size: 24px;
         font-weight: 700;
-        width: 10vw;
-        border: 1px solid red;
     }
     .content h3 {
-        color: #dec2ba;
+        color: white;
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
         margin-bottom: 4vh;
+        padding-bottom: 2vh;
+        width: 50%;
+        border-bottom: 5px solid #dec2ba;
     }
-    .fundamentals h4 {
-        transform: rotate(270deg);
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 4vh;
+    .ideas h4 {
+        color: #9c9c9c;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 2.5vh;
+        height: 2vh;
+        margin-bottom: 4vh;
+        padding-bottom: 1vh;
     }
-    .fundamentals h2 {
+    .ideas h2 {
         color: white;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         height: 2vh;
         margin: 5vw 4vw 4vw 5vw;
