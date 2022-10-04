@@ -19,7 +19,9 @@ const Header = () => {
             </div>
             <div className={styles.logo}>
                 <Image src={logo} alt="ADJ" />
-                <h1>Your partner in iGaming</h1>
+                <h1>
+                    Your partner in <b style={{ color: "#dec2ba" }}>iGaming</b>
+                </h1>
                 <div className={styles.separator}></div>
                 <h2>Join our journey together in gaming world. </h2>
                 <button>Talk to us</button>

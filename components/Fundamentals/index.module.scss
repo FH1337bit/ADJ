@@ -13,7 +13,6 @@
     justify-content: center;
     flex-direction: row;
     background-color: #231f20;
-    border-left: 6px solid white;
     border-right: 6px solid white;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -25,13 +24,16 @@
     align-content: center;
     align-items: center;
     margin-right: 10vw;
-    margin-left: 2vw;
 }
 
-.text_rotate {
-    border: 1px solid red;
-    height: 1vh;
-    transform: rotate(270deg);
+.header {
+    margin-right: 10vw;
+    margin-left: 5vw;
+    padding-bottom: 1vh;
+    border-bottom: 4px solid white;
+    width: 24vw;
+    height: 10vh;
+    margin-bottom: 6vh;
 }
 
 @media only screen and (max-width: 40em) {
@@ -61,32 +63,23 @@
 
 @media only screen and (min-width: 40em) {
     .fundamentals h1 {
+        margin: 0 0vh 6vh 0vh;
         color: white;
         font-size: 42px;
         font-weight: 700;
-        margin-left: 5vw;
-        margin-bottom: 6vh;
-    }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        width: 10vw;
-        border: 1px solid red;
     }
     .content h3 {
-        color: #dec2ba;
+        color: #9c9c9c;
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
         margin-bottom: 4vh;
     }
     .fundamentals h4 {
-        transform: rotate(270deg);
         color: #dec2ba;
         font-size: 24px;
         font-weight: 700;
-        height: 4vh;
+        margin: 0 0vh 1.5vh 0vh;
     }
     .fundamentals h2 {
         color: white;

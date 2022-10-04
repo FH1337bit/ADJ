@@ -6,17 +6,20 @@ import Image from "next/image";
 const Fundamentals = () => {
     return (
         <div className={styles.fundamentals}>
-            <h1>FUNDAMENTALS</h1>
+            <div className={styles.header}>
+                <h4>OUR</h4>
+                <h1>FUNDAMENTALS</h1>
+            </div>
             <div className={styles.content}>
                 <div className={styles.content_box}>
-                    <h3> CASINO</h3>
-                    <h3> CRYPTO</h3>
-                    <h3> MONEY</h3>
-                    <h3> DESIGN</h3>
-                    <h3> DEVELOPMENT</h3>
-                    <h3> LICENSING</h3>
-                    <h3> LEGAL</h3>
-                    <h3> CERTIFICATION</h3>
+                    <h3 style={{ color: "white" }}> CASINO</h3>
+                    <h3 style={{ color: "#dec2ba" }}> CRYPTO</h3>
+                    <h3 style={{ color: "white" }}> MONEY</h3>
+                    <h3 style={{ color: "#dec2ba" }}> DESIGN</h3>
+                    <h3 style={{ color: "White" }}> DEVELOPMENT</h3>
+                    <h3 style={{ color: "#dec2ba" }}> LICENSING</h3>
+                    <h3 style={{ color: "white" }}> LEGAL</h3>
+                    <h3 style={{ color: "#dec2ba" }}> CERTIFICATION</h3>
                 </div>
                 <div className={styles.content_box}>
                     <Image src={fundamentals} alt="Fundamentals" />

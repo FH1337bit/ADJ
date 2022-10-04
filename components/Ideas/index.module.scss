@@ -6,7 +6,7 @@
     background-color: #231f20;
     padding-top: 4vh;
     padding-bottom: 1vh;
-    margin-bottom: 10vh;
+    margin-bottom: 2vh;
     border-top: 4px solid #dec2ba;
 }
 
@@ -32,6 +32,13 @@
     margin-left: 1vw;
     margin-right: 1vw;
     padding-right: 2vw;
+}
+
+.icons {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #dec2ba;
 }
 
 @media only screen and (max-width: 40em) {
@@ -75,17 +82,14 @@
         color: white;
         font-size: 24px;
         font-weight: 700;
-        height: 2vh;
-        margin-bottom: 4vh;
-        padding-bottom: 2vh;
         width: 50%;
-        border-bottom: 5px solid #dec2ba;
+        margin-left: 0.5vw;
     }
     .ideas h4 {
         color: #9c9c9c;
         font-size: 18px;
         font-weight: 200;
-        line-height: 2.5vh;
+        line-height: 4vh;
         height: 2vh;
         margin-bottom: 4vh;
         padding-bottom: 1vh;
@@ -95,6 +99,6 @@
         font-size: 20px;
         font-weight: 700;
         height: 2vh;
-        margin: 5vw 4vw 4vw 5vw;
+        margin: 8vw 4vw 4vw 5vw;
     }
 }
