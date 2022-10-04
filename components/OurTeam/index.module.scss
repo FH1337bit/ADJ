@@ -5,12 +5,14 @@
     flex-direction: row;
     background-color: #231f20;
     margin-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .profile {
     border: 0.4vw solid white;
-    padding: 1vw 1vw 1vw 2vw;
-    margin: 1vw 1vw 1vw 1vw;
+    padding: 1vw 4vw 1vw 4vw;
+    margin: 1vw 3vw 1vw 1vw;
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -24,14 +26,14 @@
     flex-direction: row;
 }
 
-.profile_text {
+.image {
+    width: 35vw;
+    flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    flex-direction: column;
+}
+
+.profile_text {
     margin-left: 2vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
 }
 
 .hamburger_box {

@@ -1,47 +1,52 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "../Footer/index.module.scss";
-import { BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+import adjlogo from "../../images/ADJ_Logo.png";
+import fb from "../../images/fb.png";
+import insta from "../../images/insta.png";
+import linkedin from "../../images/linkedin.png";
+import twitter from "../../images/twitter.png";
+import Image from "next/image";
 
 const Footer = () => {
     return (
-        <div id="footer" className={styles.footer}>
-            <div className={styles.footer_quote}>Let’s build something amazing together</div>
-            <div className={styles.footer_content}>
-                <div className={styles.footer_column}>
-                    <div className={styles.footer_header}>ADDRESS</div>
-                    <div className={styles.footer_text}>Prague</div>
-                    <div className={styles.footer_text}>Staré Město</div>
-                    <div className={styles.footer_text}>Bílkova 855/19</div>
-                    <div className={styles.footer_text}>PSČ 110 00 </div>
+        <div className={styles.footer}>
+            <h1>Contact</h1>
+            <div className={styles.content}>
+                <div className={styles.content_box}>
+                    <Image src={adjlogo} alt="adjlogo" />
                 </div>
-                <div className={styles.footer_column}>
-                    <div className={styles.footer_header}>COMPANY</div>
-                    <div className={styles.footer_text}>Azar Elite, s.r.o.</div>
-                    <div className={styles.footer_text}>IČO 17357446</div>
-                    <div className={styles.footer_text}>info@azar-elite.com</div>
+                <div className={styles.content_box}>
+                    <h3> ADDRESS</h3>
+                    <h4> Prague</h4>
+                    <h4> Staré Město</h4>
+                    <h4> Bílkova 855/19</h4>
+                    <h4> PSČ 110 00</h4>
                 </div>
-                <div className={styles.footer_column}>
-                    <div className={styles.footer_header}>SOCIAL MEDIA</div>
-                    <div className={styles.footer_text}>
-                        <a href="https://facebook.com">FACEBOOK</a>
-                        <div className={styles.icon}>
-                            <BsFacebook size={20} />
-                        </div>
+                <div className={styles.content_box}>
+                    <h3> COMPANY</h3>
+                    <h4> Azar Elite, s.r.o.</h4>
+                    <h4> IČO 17357446</h4>
+                    <h4> info@azar-elite.com</h4>
+                </div>
+            </div>
+            <h2>CHANGE WORLD TOGETHER WITH A DJ CONSULTING</h2>
+            <div className={styles.socials}>
+                <h4>All rights reserved. Powered by the Azar elite s.r.o</h4>
+                <div className={styles.socials_buttons}>
+                    <div className={styles.socials_button}>
+                        <Image src={fb} alt="facebook" />
                     </div>
-                    <div className={styles.footer_text}>
-                        <a href="https://linkedin.com">LINKEDIN</a>
-                        <div className={styles.icon}>
-                            <BsLinkedin size={20} />
-                        </div>
+                    <div className={styles.socials_button}>
+                        <Image src={insta} alt="instagram" />
                     </div>
-                    <div className={styles.footer_text}>
-                        <a href="https://twitter.com">TWITTER</a>
-                        <div className={styles.icon}>
-                            <BsTwitter size={20} />
-                        </div>
+                    <div className={styles.socials_button}>
+                        <Image src={linkedin} alt="linkedin" />
+                    </div>
+                    <div className={styles.socials_button}>
+                        <Image src={twitter} alt="twitter" />
                     </div>
                 </div>
             </div>
-            <div className={styles.footer_copyright}>© Azar Elite s.r.o</div>
         </div>
     );
 };
