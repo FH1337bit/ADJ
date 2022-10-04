@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import Footer from "../components/Footer";
+import Form from "../components/Form";
 import Fundamentals from "../components/Fundamentals";
 import Header from "../components/Header";
 import Ideas from "../components/Ideas";
@@ -26,6 +27,9 @@ export default function Home() {
                 </div>
                 <div className="fundamentals">
                     <Fundamentals></Fundamentals>
+                </div>
+                <div className="form">
+                    <Form></Form>
                 </div>
                 <div className="footer">
                     <Footer></Footer>
