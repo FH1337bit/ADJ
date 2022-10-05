@@ -6,7 +6,7 @@
     background-color: #231f20;
     padding-top: 4vh;
     margin-left: 0.5vw;
-    margin-bottom: 4vh;
+    margin-bottom: 10vh;
 }
 
 .content {
@@ -44,7 +44,7 @@
     padding-bottom: 2vh;
     padding-left: 3.5vh;
     padding-right: 3.5vh;
-    border: 1vw solid white;
+    border: 0.5vw solid white;
     margin-right: 3vw;
     border-radius: 50px;
     height: 28vh;
@@ -101,7 +101,7 @@
     background-color: #dec2ba;
     border-radius: 50px;
     color: black;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 22px;
     margin-bottom: 5vh;
     margin-top: 3vh;
@@ -157,7 +157,7 @@
 
 @media only screen and (min-width: 40em) {
     .form h1 {
-        color: white;
+        color: #dec2ba;
         font-size: 42px;
     }
     .form h2 {
@@ -165,11 +165,12 @@
         font-size: 28px;
     }
     .form h3 {
-        color: white;
+        color: #9c9c9c;
         font-size: 18px;
     }
     .form h4 {
         color: #231f20;
         font-size: 22px;
+        font-weight: 400;
     }
 }

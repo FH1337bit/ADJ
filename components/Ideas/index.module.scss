@@ -4,9 +4,10 @@
     justify-content: left;
     flex-direction: column;
     background-color: #231f20;
-    padding-top: 4vh;
+    padding-top: 10vh;
     padding-bottom: 1vh;
     border-top: 4px solid #dec2ba;
+    margin-bottom: 10vh;
 }
 
 .ideas_header {
@@ -22,6 +23,7 @@
     align-content: center;
     margin-left: 4vw;
     margin-right: 2vw;
+    margin-top: 3vh;
 }
 
 .content_box {
@@ -72,11 +74,6 @@
         font-weight: 700;
         margin-bottom: 3vh;
     }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-    }
     .content h3 {
         color: white;
         font-size: 24px;
@@ -95,9 +92,9 @@
     }
     .ideas h2 {
         color: white;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 700;
         height: 2vh;
-        margin: 8vw 4vw 4vw 5vw;
+        margin: 9vw 4vw 4vw 5vw;
     }
 }

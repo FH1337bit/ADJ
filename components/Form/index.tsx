@@ -31,7 +31,6 @@ const Form = () => {
                         <Image src={email} alt="email" />
                     </div>
                     <h4>ADJ-CONSULTING@GMAIL.COM</h4>
-                    <h4>+420 222 456 789</h4>
                 </div>
             </div>
         </div>
