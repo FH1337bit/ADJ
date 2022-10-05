@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Fundamentals from "../components/Fundamentals";
 import Header from "../components/Header";
+import Help from "../components/Help";
 import Ideas from "../components/Ideas";
 import OurTeam from "../components/OurTeam";
 
@@ -27,6 +28,9 @@ export default function Home() {
                 </div>
                 <div className="fundamentals">
                     <Fundamentals></Fundamentals>
+                </div>
+                <div className="help">
+                    <Help></Help>
                 </div>
                 <div className="form">
                     <Form></Form>

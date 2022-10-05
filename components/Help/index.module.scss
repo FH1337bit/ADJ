@@ -1,0 +1,109 @@
+.help {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    background-color: #231f20;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    border-top: 4px solid #dec2ba;
+    justify-content: center;
+}
+
+.label {
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.help_header {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 6vh;
+    // border-bottom: 4px solid #dec2ba;
+}
+
+.content {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    background-color: #231f20;
+    align-content: center;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-bottom: 6vh;
+}
+
+.content_box {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-right: 2vw;
+    width: 100%;
+    text-align: center;
+}
+
+.icons {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #dec2ba;
+}
+
+@media only screen and (max-width: 40em) {
+    .ideas h1 {
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .content h2 {
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .fundamentals h3 {
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 700;
+        height: 2vh;
+    }
+    .fundamentals h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        height: 2vh;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .help h1 {
+        color: #dec2ba;
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 2.5vh;
+    }
+    .content h2 {
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .content h3 {
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        width: 50%;
+        margin-left: 0.5vw;
+    }
+    .help h4 {
+        color: #9c9c9c;
+        font-size: 24px;
+        font-weight: 200;
+        line-height: 4vh;
+        height: 2vh;
+        margin-bottom: 4vh;
+        padding-bottom: 1vh;
+    }
+    .help h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        height: 2vh;
+    }
+}
