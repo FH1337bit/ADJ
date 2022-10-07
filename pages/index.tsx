@@ -12,8 +12,8 @@ export default function Home() {
     return (
         <Fragment>
             <Head>
-                <title>Azar elite</title>
-                <meta name="description" content="Azar elite - Landing page" />
+                <title>ADJ CONSULTING</title>
+                <meta name="description" content="ADJ CONSULTING- Landing page" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="content">

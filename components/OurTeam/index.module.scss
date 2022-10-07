@@ -5,8 +5,10 @@
     flex-direction: row;
     background-color: #231f20;
     margin-bottom: 14vh;
+    padding-top: 10vh;
     padding-left: 4vw;
     padding-right: 3.5vw;
+    border-top: 4px solid #dec2ba;
 }
 
 .profile {
@@ -32,10 +34,8 @@
 }
 
 .image {
-    height: 15vh;
-    display: flex;
-    align-self: start;
-    margin-top: 2vh;
+    margin-top: 4vh;
+    width: 8vw;
 }
 
 .profile_text {
