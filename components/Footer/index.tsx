@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <h2>CHANGE WORLD TOGETHER WITH A DJ CONSULTING</h2>
             <div className={styles.socials}>
-                <h4>All rights reserved. Powered by the Azar elite s.r.o</h4>
+                <h4>All rights reserved. Powered by the ADJ Consulting s.r.o</h4>
                 <div className={styles.socials_buttons}>
                     <div className={styles.socials_button}>
                         <Image src={fb} alt="facebook" />

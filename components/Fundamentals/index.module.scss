@@ -4,7 +4,6 @@
     flex-direction: column;
     padding-top: 2vh;
     margin-bottom: 4vh;
-    width: 100%;
 }
 
 .content {
@@ -32,23 +31,6 @@
     margin-top: 4vh;
     margin-bottom: 2vh;
     // border: 1vh solid white;
-}
-
-.content_box {
-    align-self: center;
-    align-content: center;
-    align-items: center;
-    margin-right: 10vw;
-}
-
-.header {
-    margin-right: 10vw;
-    margin-left: 5vw;
-    padding-bottom: 1vh;
-    border-bottom: 4px solid white;
-    width: 24vw;
-    height: 10vh;
-    margin-bottom: 6vh;
 }
 
 .divider {
@@ -81,31 +63,122 @@
 }
 
 @media only screen and (max-width: 40em) {
-    .fundamentals h1 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
+    .header {
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding-bottom: 4vh;
+        border-bottom: 4px solid white;
+        width: 95vw;
+        height: 10vh;
+        margin-bottom: 6vh;
     }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 44px;
-        font-weight: 700;
+    .content_box {
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        margin-right: 15vw;
+        margin-left: 5vw;
     }
-    .fundamentals h3 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
-    }
-    .fundamentals h2 {
+    .divider h1 {
         color: white;
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .divider h2 {
+        color: #9c9c9c;
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    .divider h2 b {
+        margin-left: 1vw;
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .divider h3 {
+        color: #dec2ba;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .header h1 {
+        margin: 0 0vh 10vh 0vh;
+        color: white;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .content h3 {
+        color: #9c9c9c;
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
+        margin-bottom: 5vh;
+    }
+    .header h4 {
+        color: #dec2ba;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0vh 1.5vh 0vh;
+    }
+    .header h2 {
+        color: white;
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    .header h3 {
+        margin-left: 2vw;
+        color: #dec2ba;
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    .diagonal_box h2 {
+        color: #dec2ba;
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 2vw;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        transform: skewY(2deg);
+    }
+
+    .diagonal_box h3 {
+        color: #9c9c9c;
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 2vw;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        transform: skewY(2deg);
+    }
+
+    .fundamentals h2:before {
+        content: "\201c";
+    }
+    .fundamentals h2:after {
+        content: "\201d";
     }
 }
 
 @media only screen and (min-width: 40em) {
+    .header {
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding-bottom: 1vh;
+        border-bottom: 4px solid white;
+        width: 24vw;
+        height: 10vh;
+        margin-bottom: 6vh;
+    }
+    .content_box {
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        margin-right: 10vw;
+    }
     .divider h1 {
         color: white;
         font-size: 42px;

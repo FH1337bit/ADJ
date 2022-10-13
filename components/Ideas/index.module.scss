@@ -12,18 +12,6 @@
     margin-left: 5vw;
 }
 
-.content {
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: #231f20;
-    align-content: center;
-    margin-left: 4vw;
-    margin-right: 2vw;
-    margin-top: 3vh;
-}
-
 .content_box {
     align-self: center;
     align-content: center;
@@ -33,44 +21,64 @@
     padding-right: 2vw;
 }
 
-.icons {
-    flex-wrap: nowrap;
-    display: flex;
-    flex-direction: row;
-    border-bottom: 5px solid #dec2ba;
+.ideas h1 {
+    color: #dec2ba;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 3vh;
 }
 
 @media only screen and (max-width: 40em) {
-    .ideas h1 {
-        color: #dec2ba;
+    .icons {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 5px solid #dec2ba;
+        margin-top: 3vh;
+    }
+    .content h3 {
+        color: white;
         font-size: 24px;
         font-weight: 700;
+        width: 50%;
+        margin-left: 0.5vw;
     }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
+    .ideas h4 {
+        color: #9c9c9c;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 4vh;
+        height: 7vh;
+        margin-bottom: 4vh;
+        padding-bottom: 1vh;
     }
-    .fundamentals h3 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
-    }
-    .fundamentals h2 {
+    .ideas h2 {
         color: white;
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
+        margin: 25vw 0vw 0vw 0vw;
+        text-align: center;
+    }
+    .content {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #231f20;
+        align-content: center;
+        margin-left: 4vw;
+        margin-right: 2vw;
+        margin-top: 2vh;
     }
 }
 
 @media only screen and (min-width: 40em) {
-    .ideas h1 {
-        color: #dec2ba;
-        font-size: 42px;
-        font-weight: 700;
-        margin-bottom: 3vh;
+    .icons {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 5px solid #dec2ba;
     }
     .content h3 {
         color: white;
@@ -94,5 +102,16 @@
         font-weight: 700;
         height: 2vh;
         margin: 9vw 4vw 4vw 5vw;
+    }
+    .content {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #231f20;
+        align-content: center;
+        margin-left: 4vw;
+        margin-right: 2vw;
+        margin-top: 3vh;
     }
 }

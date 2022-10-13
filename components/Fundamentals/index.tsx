@@ -12,6 +12,9 @@ const Fundamentals = () => {
                     <h2>
                         It's not a faith in technology. <b>It's faith in people.</b>
                     </h2>
+                    <h1>30% Increased Sales </h1>
+                    <h1>100% Satisfied Customers </h1>
+                    <h1> 50% Increased Distribution Network </h1>
                     {/* <h3>Lets go invent tomorrow instead of worrying about what happened yesterday.</h3> */}
                 </div>
             </div>

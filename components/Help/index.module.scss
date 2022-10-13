@@ -46,43 +46,46 @@
     border-bottom: 5px solid #dec2ba;
 }
 
+.help h1 {
+    color: #dec2ba;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 2.5vh;
+}
+.content h2 {
+    color: #dec2ba;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 40em) {
-    .ideas h1 {
-        color: #dec2ba;
+    .content h3 {
+        color: white;
         font-size: 24px;
         font-weight: 700;
+        width: 50%;
+        margin-left: 0.5vw;
     }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-    }
-    .fundamentals h3 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
+    .help h4 {
+        color: #9c9c9c;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 4vh;
         height: 2vh;
+        margin-bottom: 4vh;
+        padding-bottom: 1vh;
     }
-    .fundamentals h2 {
+    .help h2 {
         color: white;
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
 @media only screen and (min-width: 40em) {
-    .help h1 {
-        color: #dec2ba;
-        font-size: 42px;
-        font-weight: 700;
-        margin-bottom: 2.5vh;
-    }
-    .content h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-    }
     .content h3 {
         color: white;
         font-size: 24px;

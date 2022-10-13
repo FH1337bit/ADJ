@@ -91,8 +91,6 @@
     color: black;
     padding-left: 1vw;
     font-size: 14px;
-    border-right: 2vh solid #dec2ba;
-    border-left: 2vh solid #dec2ba;
 }
 
 .button {
@@ -112,46 +110,28 @@
     flex-wrap: wrap;
     flex-direction: column;
     background-color: white;
-    width: 30%;
+    width: 50%;
     align-content: center;
     text-align: center;
 }
 
 @media only screen and (max-width: 40em) {
-    .ideas h1 {
+    .form h1 {
         color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
+        font-size: 42px;
     }
-    .content_bottom h2 {
+    .form h2 {
         color: white;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
+        font-size: 28px;
     }
-    .content_bottom h3 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
+    .form h3 {
+        color: #9c9c9c;
+        font-size: 18px;
     }
-    .contact h1 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
-    }
-    .contact h2 {
-        color: #dec2ba;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
-    }
-    .contact h3 {
-        color: white;
-        font-size: 24px;
-        font-weight: 700;
-        height: 2vh;
+    .form h4 {
+        color: #231f20;
+        font-size: 22px;
+        font-weight: 400;
     }
 }
 
