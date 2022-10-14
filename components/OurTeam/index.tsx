@@ -20,7 +20,7 @@ const OurTeam = () => {
                         <div className={styles.profile_text}>
                             <h2 style={{ color: "#dec2ba" }}>Jan Urbanec</h2>
                             <h4 style={{ color: "white" }}>General Partner</h4>
-                            <h4>https://www.linkedin.com/in/jan-urbanec-629a05a5/</h4>
+                            {/* <h4>https://www.linkedin.com/in/jan-urbanec-629a05a5/</h4> */}
                         </div>
                     </div>
                 </div>

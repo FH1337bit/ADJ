@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Form/index.module.scss";
-import email from "../../images/email.svg";
-import Image from "next/image";
 
 const Form = () => {
     return (
@@ -25,12 +23,6 @@ const Form = () => {
                         />
                     </div>
                     <button className={styles.button}>Submit</button>
-                </div>
-                <div className={styles.email_box}>
-                    <div className={styles.email}>
-                        <Image src={email} alt="email" />
-                    </div>
-                    <h4>ADJ-CONSULTING@GMAIL.COM</h4>
                 </div>
             </div>
         </div>

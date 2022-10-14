@@ -33,24 +33,6 @@
     width: 87%;
 }
 
-.email_box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #dec2ba;
-    justify-content: center;
-    text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 3.5vh;
-    padding-right: 3.5vh;
-    border: 0.5vw solid white;
-    margin-right: 3vw;
-    border-radius: 50px;
-    height: 28vh;
-    margin-top: 1vh;
-}
-
 .email {
     align-self: center;
     justify-content: center;
@@ -65,14 +47,6 @@
     padding-right: 2vw;
 }
 
-.inputs {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 40%;
-    margin-right: 10vw;
-}
-
 .inputs_box {
     padding-bottom: 3vh;
     border-bottom: 0.25vh solid #dec2ba;
@@ -82,26 +56,14 @@
     color: #9c9c9c;
 }
 
-.input {
-    margin-top: 2vh;
-    width: 90%;
-    height: 4vh;
-    background-color: white;
-    border-radius: 50px;
-    color: black;
-    padding-left: 1vw;
-    font-size: 14px;
-}
-
 .button {
-    width: 30vw;
+    width: 100%;
     height: 6vh;
     background-color: #dec2ba;
     border-radius: 50px;
     color: black;
     font-weight: 400;
-    font-size: 22px;
-    margin-bottom: 5vh;
+    font-size: 18px;
     margin-top: 3vh;
 }
 
@@ -113,6 +75,25 @@
     width: 50%;
     align-content: center;
     text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 10vw;
+}
+
+.input {
+    margin-top: 2vh;
+    width: 90%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding-left: 4vw;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 40em) {
@@ -130,7 +111,7 @@
     }
     .form h4 {
         color: #231f20;
-        font-size: 22px;
+        font-size: 14px;
         font-weight: 400;
     }
 }

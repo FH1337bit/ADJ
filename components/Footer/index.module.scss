@@ -27,19 +27,6 @@
     width: 100%;
 }
 
-.content {
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: #231f20;
-    border-top: 6px solid #dec2ba;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 5vh;
-    align-content: center;
-}
-
 .content_box {
     margin-right: 5vw;
     width: 33%;
@@ -52,10 +39,23 @@
 }
 
 @media only screen and (max-width: 40em) {
+    .content {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #231f20;
+        border-top: 6px solid #dec2ba;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+        align-content: center;
+    }
+
     .socials_button {
         margin-right: 3vw;
         margin-left: 3vw;
-        width: 20vw;
+        width: 14vw;
     }
     .footer h1 {
         color: white;
@@ -103,10 +103,25 @@
         font-weight: 700;
         height: 2vh;
         align-self: center;
+        text-align: center;
+        margin-bottom: 6vh;
     }
 }
 
 @media only screen and (min-width: 40em) {
+    .content {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #231f20;
+        border-top: 6px solid #dec2ba;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+        align-content: center;
+    }
+
     .socials_button {
         margin-right: 1vw;
         margin-left: 1vw;

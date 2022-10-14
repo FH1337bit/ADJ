@@ -33,9 +33,9 @@ const Fundamentals = () => {
                     <h3 style={{ color: "white" }}> LEGAL</h3>
                     <h3 style={{ color: "#dec2ba" }}> CERTIFICATION</h3>
                 </div>
-                <div className={styles.content_box}>
+                {/* <div className={styles.content_box}>
                     <Image src={fundamentals} alt="Fundamentals" />
-                </div>
+                </div> */}
             </div>
             <div className={styles.diagonal_box}>
                 <div>
