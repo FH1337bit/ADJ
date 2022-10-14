@@ -2,7 +2,6 @@
     flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
-    padding-top: 2vh;
     margin-bottom: 4vh;
 }
 
@@ -11,7 +10,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: 6vh;
+    height: 2vh;
     transform: skewY(-2deg);
     text-align: center;
     padding-bottom: 14vh;
@@ -24,13 +23,15 @@
 .divider {
     background-color: #2c2c2c;
     box-shadow: inset 0px 0px 20px 20px #231f20;
-    width: 100%;
+    width: 90%;
     text-align: center;
-    margin-bottom: 14vh;
+    margin-bottom: 8vh;
     padding-top: 3vh;
     padding-bottom: 3vh;
     background-size: 100%;
     align-self: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 .divider_text {
     display: flex;
@@ -72,25 +73,25 @@
     }
     .divider h1 {
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 900;
         text-align: center;
     }
     .divider h2 {
         color: #9c9c9c;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 100;
     }
 
     .divider h2 b {
         margin-left: 1vw;
         color: #dec2ba;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 100;
     }
     .divider h3 {
         color: #dec2ba;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 700;
     }
     .header h1 {
@@ -127,7 +128,7 @@
 
     .diagonal_box h2 {
         color: #dec2ba;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 900;
         margin-left: 2vw;
         align-self: center;
@@ -138,7 +139,7 @@
 
     .diagonal_box h3 {
         color: #9c9c9c;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 900;
         margin-left: 2vw;
         align-self: center;
@@ -159,12 +160,12 @@
     .content {
         flex-wrap: nowrap;
         display: flex;
-        justify-content: center;
+        justify-content: left;
+        width: 80%;
+        margin-left: 10vw;
         flex-direction: row;
         background-color: #231f20;
         border-right: 6px solid white;
-        margin-left: 5vw;
-        margin-right: 5vw;
         align-content: center;
         margin-bottom: 8vh;
     }

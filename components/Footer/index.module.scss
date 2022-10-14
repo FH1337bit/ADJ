@@ -27,11 +27,6 @@
     width: 100%;
 }
 
-.content_box {
-    margin-right: 5vw;
-    width: 33%;
-}
-
 .text_rotate {
     border: 1px solid red;
     height: 1vh;
@@ -43,15 +38,15 @@
         flex-wrap: nowrap;
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #231f20;
         border-top: 6px solid #dec2ba;
         margin-left: 5vw;
         margin-right: 5vw;
         margin-top: 5vh;
         align-content: center;
+        text-align: center;
     }
-
     .socials_button {
         margin-right: 3vw;
         margin-left: 3vw;
@@ -106,9 +101,28 @@
         text-align: center;
         margin-bottom: 6vh;
     }
+    .content_box {
+        margin-right: 5vw;
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 40em) {
+    .content_right_box {
+        flex-wrap: nowrap;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content_left_box {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
     .content {
         flex-wrap: nowrap;
         display: flex;
@@ -172,5 +186,9 @@
         font-weight: 700;
         height: 2vh;
         align-self: center;
+    }
+    .content_box {
+        margin-right: 5vw;
+        width: 100%;
     }
 }

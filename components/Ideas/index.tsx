@@ -36,7 +36,9 @@ const Ideas = () => {
                     </h4>
                 </div>
             </div>
-            <h2>ADJ CONSULTING EXPERTS IN IGAMING</h2>
+            <div className={styles.ideas_header}>
+                <h2>ADJ CONSULTING EXPERTS IN IGAMING</h2>
+            </div>
         </div>
     );
 };

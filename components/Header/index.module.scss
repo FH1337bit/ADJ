@@ -3,19 +3,10 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
-    background-color: #231f20;
 }
 
 .navbar {
     display: flex;
-}
-
-.hamburger_box {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-left: 2vw;
-    margin-top: 2vw;
 }
 
 .separator {
@@ -25,13 +16,6 @@
     width: 90%;
     background-color: #dec2ba;
     color: #dec2ba;
-}
-
-.joinus {
-    margin-left: auto;
-    margin-right: 3vw;
-    margin-top: 2vw;
-    align-self: center;
 }
 
 .menu a {
@@ -49,13 +33,28 @@
 }
 
 @media only screen and (max-width: 40em) {
+    .hamburger_box {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 4vw;
+        margin-top: 2vh;
+        width: 30%;
+    }
+
+    .joinus {
+        margin-left: auto;
+        margin-right: 4vw;
+        margin-top: 4.5vw;
+        width: 30%;
+    }
     .menu img {
-        width: 10vw;
+        width: 8vw;
         justify-content: center;
     }
     .menu button {
-        width: 60vw;
-        height: 30vw;
+        width: 50vw;
+        height: 20vw;
         font-size: 24px;
         font-weight: 900;
         color: black;
@@ -98,6 +97,19 @@
 }
 
 @media only screen and (min-width: 40em) {
+    .hamburger_box {
+        display: flex;
+        align-items: center;
+        margin-left: 4vw;
+        margin-top: 2vw;
+    }
+    .joinus {
+        margin-left: auto;
+        margin-right: 3vw;
+        margin-top: 2vw;
+        align-self: center;
+    }
+
     .menu img {
         width: 10vw;
         justify-content: center;

@@ -13,9 +13,9 @@ const Header = () => {
                     <Image src={hamburger} alt="Hamburger" />
                     <label>MENU</label>
                 </div>
-                <div className={styles.joinus}>
+                {/* <div className={styles.joinus}>
                     <label>JOIN US</label>
-                </div>
+                </div> */}
             </div>
             <div className={styles.logo}>
                 <Image src={logo} alt="ADJ" />

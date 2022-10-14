@@ -11,21 +11,25 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.content}>
-                <div className={styles.content_box}>
-                    <Image src={adjlogo} alt="adjlogo" />
+                <div className={styles.content_right_box}>
+                    <div className={styles.content_box}>
+                        <Image src={adjlogo} alt="adjlogo" />
+                    </div>
                 </div>
-                <div className={styles.content_box}>
-                    <h3> ADDRESS</h3>
-                    <h4> Prague</h4>
-                    <h4> Staré Město</h4>
-                    <h4> Bílkova 855/19</h4>
-                    <h4> PSČ 110 00</h4>
-                </div>
-                <div className={styles.content_box}>
-                    <h3> COMPANY</h3>
-                    <h4> Azar Elite, s.r.o.</h4>
-                    <h4> IČO 17357446</h4>
-                    <h4> info@azar-elite.com</h4>
+                <div className={styles.content_left_box}>
+                    <div className={styles.content_box}>
+                        <h3> ADDRESS</h3>
+                        <h4> Prague</h4>
+                        <h4> Staré Město</h4>
+                        <h4> Bílkova 855/19</h4>
+                        <h4> PSČ 110 00</h4>
+                    </div>
+                    <div className={styles.content_box}>
+                        <h3> COMPANY</h3>
+                        <h4> Azar Elite, s.r.o.</h4>
+                        <h4> IČO 17357446</h4>
+                        <h4> info@azar-elite.com</h4>
+                    </div>
                 </div>
             </div>
             <h2>CHANGE WORLD TOGETHER WITH A DJ CONSULTING</h2>

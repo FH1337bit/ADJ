@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Fundamentals/index.module.scss";
-import fundamentals from "../../images/fundamentals.png";
-import Image from "next/image";
 
 const Fundamentals = () => {
     return (
