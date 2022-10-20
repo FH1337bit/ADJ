@@ -57,7 +57,7 @@ const Form = () => {
                                 placeholder="Insert your message"
                                 aria-label="message"
                             />
-                            <input className={styles.button} type="submit" value="Submit" />
+                            <input className={styles.button} type="submit" value="Send email" />
                         </form>
                     </div>
                 </div>

@@ -1,22 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Header/index.module.scss";
 import logo from "../../images/logo.png";
-import hamburger from "../../images/hamburger.png";
 import arrow from "../../images/arrow.png";
 import Image from "next/image";
 
 const Header = () => {
     return (
         <div className={styles.menu}>
-            <div className={styles.navbar}>
+            {/* <div className={styles.navbar}>
                 <div className={styles.hamburger_box}>
                     <Image src={hamburger} alt="Hamburger" />
                     <label>MENU</label>
                 </div>
-                {/* <div className={styles.joinus}>
+                 <div className={styles.joinus}>
                     <label>JOIN US</label>
-                </div> */}
-            </div>
+                </div> 
+            </div> */}
             <div className={styles.logo}>
                 <Image src={logo} alt="ADJ" />
                 <h1>

@@ -8,10 +8,6 @@
     margin-bottom: 10vh;
 }
 
-.ideas_header {
-    margin-left: 5vw;
-}
-
 .content_box {
     align-self: center;
     align-content: center;
@@ -58,8 +54,9 @@
         font-size: 24px;
         font-weight: 700;
         height: 2vh;
-        margin: 25vw 0vw 0vw 0vw;
-        text-align: center;
+        margin: 10vh 0vw 5vh 0vw;
+        line-height: 6vh;
+        padding-right: 2vh;
     }
     .content {
         flex-wrap: wrap;
@@ -70,6 +67,9 @@
         align-content: center;
         margin-left: 4vw;
         margin-right: 2vw;
+    }
+    .ideas_header {
+        margin-left: 5vw;
     }
 }
 
@@ -111,5 +111,9 @@
         margin-left: 4vw;
         margin-right: 2vw;
         margin-top: 3vh;
+    }
+    .ideas_header {
+        margin-left: 5vw;
+        margin-top: 6vh;
     }
 }

@@ -2,6 +2,7 @@
 import styles from "../OurTeam/index.module.scss";
 import ceo from "../../images/ceo.png";
 import Image from "next/image";
+import linkedin from "../../images/linkedin.png";
 
 const OurTeam = () => {
     return (
@@ -20,6 +21,9 @@ const OurTeam = () => {
                         <div className={styles.profile_text}>
                             <h2 style={{ color: "#dec2ba" }}>Jan Urbanec</h2>
                             <h4 style={{ color: "white" }}>General Partner</h4>
+                            <div className={styles.socials_button}>
+                                <Image src={linkedin} alt="linkedin" />
+                            </div>
                             {/* <h4>https://www.linkedin.com/in/jan-urbanec-629a05a5/</h4> */}
                         </div>
                     </div>

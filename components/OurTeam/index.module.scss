@@ -14,6 +14,7 @@
     .profile_text {
         margin-left: 10vw;
         width: 50%;
+        margin-bottom: 3vh;
     }
     .image {
         margin-top: 2.5vh;
@@ -69,6 +70,7 @@
         font-size: 18px;
         line-height: 4vh;
         font-weight: 100;
+        margin-bottom: 4vh;
     }
 
     .profile h4 {
@@ -84,8 +86,9 @@
         font-size: 20px;
         margin-bottom: 2.5vh;
         border-bottom: 4px solid #dec2ba;
-        padding-bottom: 1vh;
+        padding-bottom: 2.5vh;
         text-align: center;
+        line-height: 4vh;
     }
     .content h3 {
         margin-top: 2vh;
@@ -94,6 +97,11 @@
         font-weight: 100;
         margin-bottom: 2vh;
         text-align: center;
+    }
+    .socials_button {
+        margin-bottom: 3vw;
+        margin-left: 0vw;
+        width: 10vw;
     }
 }
 
@@ -174,5 +182,9 @@
         font-size: 20px;
         font-weight: 100;
         margin-bottom: 2vh;
+    }
+    .socials_button {
+        margin-bottom: 2vw;
+        width: 2vw;
     }
 }

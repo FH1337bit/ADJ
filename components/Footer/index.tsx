@@ -32,22 +32,22 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <h2>CHANGE WORLD TOGETHER WITH A DJ CONSULTING</h2>
+            <h2>LETS CREATE VALUE TOGHETER WITH A DJ CONSULTING</h2>
             <div className={styles.socials}>
                 <h4>All rights reserved. Powered by the ADJ Consulting s.r.o</h4>
                 <div className={styles.socials_buttons}>
-                    <div className={styles.socials_button}>
+                    {/* <div className={styles.socials_button}>
                         <Image src={fb} alt="facebook" />
                     </div>
                     <div className={styles.socials_button}>
                         <Image src={insta} alt="instagram" />
-                    </div>
+                    </div> */}
                     <div className={styles.socials_button}>
                         <Image src={linkedin} alt="linkedin" />
                     </div>
-                    <div className={styles.socials_button}>
+                    {/* <div className={styles.socials_button}>
                         <Image src={twitter} alt="twitter" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
