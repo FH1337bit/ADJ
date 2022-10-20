@@ -23,7 +23,10 @@ const Header = () => {
                 </h1>
                 <div className={styles.separator}></div>
                 <h2>Join our journey together in gaming world. </h2>
-                <button>Talk to us</button>
+
+                <button>
+                    <a href="#form">Talk to us</a>
+                </button>
                 <div className={styles.arrow}>
                     <Image src={arrow} alt="ADJ" />
                 </div>

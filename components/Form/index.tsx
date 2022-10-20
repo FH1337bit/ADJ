@@ -27,7 +27,7 @@ const Form = () => {
     };
 
     return (
-        <div className={styles.form}>
+        <div id="form" className={styles.form}>
             <div className={styles.bottom_text}>
                 <h1>GET IN TOUCH</h1>
                 <h2>We are looking forward to start a project with you!</h2>
