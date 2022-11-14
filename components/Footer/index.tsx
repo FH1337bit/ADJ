@@ -2,6 +2,7 @@
 import styles from "../Footer/index.module.scss";
 import linkedin from "../../images/linkedin.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -39,7 +40,12 @@ const Footer = () => {
                         <Image src={insta} alt="instagram" />
                     </div> */}
                     <div className={styles.socials_button}>
-                        <Image src={linkedin} alt="linkedin" />
+                        <Link
+                            key="https://www.linkedin.com/in/jan-urbanec-629a05a5/"
+                            passHref
+                            href="https://www.linkedin.com/in/jan-urbanec-629a05a5/">
+                            <Image src={linkedin} alt="linkedin" />
+                        </Link>
                     </div>
                     {/* <div className={styles.socials_button}>
                         <Image src={twitter} alt="twitter" />
