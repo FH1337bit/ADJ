@@ -1,7 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import styles from "../Form/index.module.scss";
 import emailjs from "@emailjs/browser";
-import { FormEvent, useRef } from "react";
+import { FormEvent, useRef, useState } from "react";
+import adjlogo from "../../images/logo.png";
+import Image from "next/image";
 
 const Form = () => {
     const form = useRef() as React.MutableRefObject<HTMLFormElement>;
@@ -11,17 +12,20 @@ const Form = () => {
         const data = new FormData(event.currentTarget);
         emailjs
             .send(
-                "service_qgysm8e",
-                "template_nw0so18",
+                "service_kuuep25_ADJ",
+                "template_ktj92fk",
                 {
                     email: data.get("email") as string,
                     name: data.get("name") as string,
                     message: data.get("message") as string,
                 },
-                "oU3-WbUuCn3jMfKIX",
+                "eBWLnz0v6kNYq1vMb",
             )
             .then(
-                result => console.log(result.text),
+                result => {
+                    console.log(result.text);
+                    alert("Email was sended...");
+                },
                 error => console.log(error.text),
             );
     };
@@ -60,6 +64,9 @@ const Form = () => {
                             <input className={styles.button} type="submit" value="Send email" />
                         </form>
                     </div>
+                </div>
+                <div className={styles.logo}>
+                    <Image src={adjlogo} alt="adjlogo" />
                 </div>
             </div>
         </div>

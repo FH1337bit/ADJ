@@ -1,17 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../Footer/index.module.scss";
-import adjlogo from "../../images/logo.png";
-import fb from "../../images/fb.png";
-import insta from "../../images/insta.png";
 import linkedin from "../../images/linkedin.png";
-import twitter from "../../images/twitter.png";
 import Image from "next/image";
 
 const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.content}>
-                <div className={styles.content_right_box}>
+                {/* <div className={styles.content_right_box}>
                     <div className={styles.content_box}>
                         <Image src={adjlogo} alt="adjlogo" />
                     </div>
@@ -30,11 +26,11 @@ const Footer = () => {
                         <h4> IČO 17357446</h4>
                         <h4> info@azar-elite.com</h4>
                     </div>
-                </div>
+                </div> */}
             </div>
             <h2>LETS CREATE VALUE TOGHETER WITH A DJ CONSULTING</h2>
             <div className={styles.socials}>
-                <h4>All rights reserved. Powered by the ADJ Consulting s.r.o</h4>
+                <h4>All rights reserved. Powered by the ADJ Consulting</h4>
                 <div className={styles.socials_buttons}>
                     {/* <div className={styles.socials_button}>
                         <Image src={fb} alt="facebook" />
